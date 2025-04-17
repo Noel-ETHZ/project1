@@ -1,0 +1,17 @@
+# Ignore virtual environments
+.env/
+venv/
+project_venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore data (if you don't want to push datasets)
+/data/
+
+# Environment and secrets
+*.env
+
+# Jupyter checkpoints (if you're using notebooks)
+.ipynb_checkpoints/

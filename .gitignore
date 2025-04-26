@@ -9,6 +9,7 @@ __pycache__/
 
 # Ignore data (if you don't want to push datasets)
 /data/
+*.npy
 
 # Environment and secrets
 *.env

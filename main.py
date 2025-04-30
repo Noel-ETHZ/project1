@@ -31,13 +31,27 @@ if __name__ == "__main__":
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     # 1. Normalization
     scaler = preprocessing.StandardScaler().fit(X_train)
-    scaler = preprocessing.MinMaxScaler().fit(X_train)
+    #scaler = preprocessing.MinMaxScaler().fit(X_train)
 
     X_train_s = scaler.transform(X_train)
     X_test_s = scaler.transform(X_test)
 
+    params = {
+            "model" : "MLPRegressor",
+            "scaler": "StandardScaler",
+            "hidden_layer_sizes" : (700,700,700),
+            "pca_components" : 20,
+            "downsample_factor" : config["downsample_factor"],
+            "alpha" : 0.1
+        }
+    with open("test_cases.txt", "a") as f:
+        for key, value in params.items():
+            f.write(f"{key}: {value}\n")
+
+    
+
     #pca = KernelPCA(n_components=300, kernel="rbf")
-    pca = PCA(n_components=100, whiten=True)
+    pca = PCA(n_components=params["pca_components"], whiten=True)
     pca.fit(X_train_s)
 
     X_train_pp = pca.transform(X_train_s)
@@ -53,8 +67,8 @@ if __name__ == "__main__":
     #model = KNeighborsRegressor(n_neighbors=2, weights="distance", metric="manhattan")  
     #model = DecisionTreeRegressor()
     model = MLPRegressor(
-        hidden_layer_sizes=(300, 300, 300),
-        alpha=0.1,
+        hidden_layer_sizes=params["hidden_layer_sizes"],
+        alpha=params["alpha"],
         activation="relu",
         solver="adam",
         max_iter=500,
@@ -67,7 +81,9 @@ if __name__ == "__main__":
 
 
     # fine tuning loop
-    for i in range(300):
+    last_MAE = 0
+    last_iter = 0
+    for i in range(100):
         for t in tqdm(range(50), desc="Training iterations"):
             model.partial_fit(X_train_pp, y_train)
 
@@ -78,7 +94,12 @@ if __name__ == "__main__":
         print("Train Score:")
         print_results(y_train, y_train_pred)
         print("Test Score:")
-        print_results(y_test, y_test_pred)
+        last_iter = i
+        last_MAE = print_results(y_test, y_test_pred)
+        
+    with open("test_cases.txt", "a") as f:
+        f.write(f"Final Test Score: {last_MAE}, iteration: {last_iter}\n==============================\n")
+
     
     #model.fit(X_train_pp, y_train)
         

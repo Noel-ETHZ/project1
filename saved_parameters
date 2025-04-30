@@ -1,0 +1,1625 @@
+
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.5
+pca_components: 1
+Final Test Score: 31.321, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.5
+pca_components: 3
+Final Test Score: 27.44, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.5
+pca_components: 6
+Final Test Score: 23.881, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.3
+pca_components: 1
+Final Test Score: 31.281, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.3
+pca_components: 3
+Final Test Score: 27.133, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.3
+pca_components: 6
+Final Test Score: 23.256, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 1
+Final Test Score: 31.237, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 3
+Final Test Score: 26.52, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 6
+Final Test Score: 22.331, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 1
+Final Test Score: 31.171, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 3
+Final Test Score: 25.837, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 6
+Final Test Score: 21.934, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 1
+Final Test Score: 31.15, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 3
+Final Test Score: 25.819, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 6
+Final Test Score: 21.848, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.0001
+pca_components: 1
+Final Test Score: 31.139, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.0001
+pca_components: 3
+Final Test Score: 25.799, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.0001
+pca_components: 6
+Final Test Score: 21.845, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300)
+alpha: 0.5
+pca_components: 1
+Final Test Score: 31.356, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300)
+alpha: 0.5
+pca_components: 3
+Final Test Score: 27.522, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300)
+alpha: 0.5
+pca_components: 6
+Final Test Score: 24.725, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300)
+alpha: 0.3
+pca_components: 1
+Final Test Score: 31.339, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 100
+hidden_layer_sizes: (300, 300)
+alpha: 0.3
+pca_components: 3
+Final Test Score: 27.388, iteration: 29
+==============================
+
+
+
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.3
+pca_components: 5
+Final Test Score: 24.647, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.3
+pca_components: 20
+Final Test Score: 17.056, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.3
+pca_components: 50
+Final Test Score: 18.96, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.3
+pca_components: 80
+Final Test Score: 20.671, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.3
+pca_components: 100
+Final Test Score: 22.977, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 5
+Final Test Score: 23.496, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 16.387, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 50
+Final Test Score: 19.622, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 80
+Final Test Score: 21.582, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 100
+Final Test Score: 24.093, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 5
+Final Test Score: 22.799, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 16.267, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 50
+Final Test Score: 21.599, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 80
+Final Test Score: 23.923, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 100
+Final Test Score: 26.954, iteration: 24
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 5
+Final Test Score: 25.81, iteration: 9
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 19.079, iteration: 12
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 50
+Final Test Score: 22.775, iteration: 11
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 80
+Final Test Score: 24.606, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 100
+Final Test Score: 27.345, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.3
+pca_components: 5
+Final Test Score: 28.447, iteration: 10
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.3
+pca_components: 20
+Final Test Score: 19.289, iteration: 25
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.3
+pca_components: 50
+Final Test Score: 19.722, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.3
+pca_components: 80
+Final Test Score: 20.917, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.3
+pca_components: 100
+Final Test Score: 26.008, iteration: 18
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.1
+pca_components: 5
+Final Test Score: 25.882, iteration: 23
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 19.472, iteration: 21
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.1
+pca_components: 50
+Final Test Score: 21.626, iteration: 18
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.1
+pca_components: 80
+Final Test Score: 23.523, iteration: 20
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.1
+pca_components: 100
+Final Test Score: 24.386, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.01
+pca_components: 5
+Final Test Score: 25.255, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 20.715, iteration: 16
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.01
+pca_components: 50
+Final Test Score: 21.294, iteration: 21
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.01
+pca_components: 80
+Final Test Score: 23.498, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.01
+pca_components: 100
+Final Test Score: 45.808, iteration: 1
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.001
+pca_components: 5
+Final Test Score: 25.249, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 18.094, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.001
+pca_components: 50
+Final Test Score: 43.47, iteration: 1
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.001
+pca_components: 80
+Final Test Score: 24.456, iteration: 18
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300)
+alpha: 0.001
+pca_components: 100
+Final Test Score: 27.368, iteration: 17
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.3
+pca_components: 5
+Final Test Score: 26.236, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.3
+pca_components: 20
+Final Test Score: 21.631, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.3
+pca_components: 50
+Final Test Score: 22.902, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.3
+pca_components: 80
+Final Test Score: 30.207, iteration: 17
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.3
+pca_components: 100
+Final Test Score: 24.108, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.1
+pca_components: 5
+Final Test Score: 25.643, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 21.675, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.1
+pca_components: 50
+Final Test Score: 23.568, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.1
+pca_components: 80
+Final Test Score: 26.044, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.1
+pca_components: 100
+Final Test Score: 24.812, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.01
+pca_components: 5
+Final Test Score: 25.374, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 21.741, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.01
+pca_components: 50
+Final Test Score: 23.283, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.01
+pca_components: 80
+Final Test Score: 26.516, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.01
+pca_components: 100
+Final Test Score: 25.224, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.001
+pca_components: 5
+Final Test Score: 25.343, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 21.771, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.001
+pca_components: 50
+Final Test Score: 23.686, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.001
+pca_components: 80
+Final Test Score: 26.56, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100, 100)
+alpha: 0.001
+pca_components: 100
+Final Test Score: 39.98, iteration: 3
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.3
+pca_components: 5
+Final Test Score: 27.314, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.3
+pca_components: 20
+Final Test Score: 23.239, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.3
+pca_components: 50
+Final Test Score: 32.345, iteration: 12
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.3
+pca_components: 80
+Final Test Score: 28.548, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.3
+pca_components: 100
+Final Test Score: 29.212, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.1
+pca_components: 5
+Final Test Score: 160.325, iteration: 0
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 23.273, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.1
+pca_components: 50
+Final Test Score: 25.43, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.1
+pca_components: 80
+Final Test Score: 29.084, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.1
+pca_components: 100
+Final Test Score: 30.175, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.01
+pca_components: 5
+Final Test Score: 27.126, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 32.084, iteration: 11
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.01
+pca_components: 50
+Final Test Score: 24.623, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.01
+pca_components: 80
+Final Test Score: 30.302, iteration: 26
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.01
+pca_components: 100
+Final Test Score: 30.667, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.001
+pca_components: 5
+Final Test Score: 27.157, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 23.329, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.001
+pca_components: 50
+Final Test Score: 25.462, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.001
+pca_components: 80
+Final Test Score: 29.39, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (100, 100)
+alpha: 0.001
+pca_components: 100
+Final Test Score: 30.719, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.3
+pca_components: 5
+Final Test Score: 24.213, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.3
+pca_components: 20
+Final Test Score: 16.007, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.3
+pca_components: 50
+Final Test Score: 18.449, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.3
+pca_components: 80
+Final Test Score: 19.681, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.3
+pca_components: 100
+Final Test Score: 21.549, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.1
+pca_components: 5
+Final Test Score: 22.724, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 15.743, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.1
+pca_components: 50
+Final Test Score: 18.255, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.1
+pca_components: 80
+Final Test Score: 19.893, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.1
+pca_components: 100
+Final Test Score: 22.231, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.01
+pca_components: 5
+Final Test Score: 21.896, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 16.158, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.01
+pca_components: 50
+Final Test Score: 19.046, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.01
+pca_components: 80
+Final Test Score: 22.13, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.01
+pca_components: 100
+Final Test Score: 24.21, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.001
+pca_components: 5
+Final Test Score: 21.727, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 16.274, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.001
+pca_components: 50
+Final Test Score: 19.462, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.001
+pca_components: 80
+Final Test Score: 22.773, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.001
+pca_components: 100
+Final Test Score: 24.919, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.3
+pca_components: 5
+Final Test Score: 25.662, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.3
+pca_components: 20
+Final Test Score: 17.826, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.3
+pca_components: 50
+Final Test Score: 19.028, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.3
+pca_components: 80
+Final Test Score: 20.219, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.3
+pca_components: 100
+Final Test Score: 22.682, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.1
+pca_components: 5
+Final Test Score: 24.951, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 16.816, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.1
+pca_components: 50
+Final Test Score: 19.3, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.1
+pca_components: 80
+Final Test Score: 20.954, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.1
+pca_components: 100
+Final Test Score: 23.991, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.01
+pca_components: 5
+Final Test Score: 24.427, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 16.433, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.01
+pca_components: 50
+Final Test Score: 19.795, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.01
+pca_components: 80
+Final Test Score: 23.032, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.01
+pca_components: 100
+Final Test Score: 27.273, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.001
+pca_components: 5
+Final Test Score: 24.376, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 16.463, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.001
+pca_components: 50
+Final Test Score: 19.548, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.001
+pca_components: 80
+Final Test Score: 23.521, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.001
+pca_components: 100
+Final Test Score: 28.06, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.3
+pca_components: 5
+Final Test Score: 23.854, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.3
+pca_components: 20
+Final Test Score: 16.251, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.3
+pca_components: 50
+Final Test Score: 18.405, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.3
+pca_components: 80
+Final Test Score: 19.932, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.3
+pca_components: 100
+Final Test Score: 20.4, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.1
+pca_components: 5
+Final Test Score: 22.466, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 16.145, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.1
+pca_components: 50
+Final Test Score: 18.42, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.1
+pca_components: 80
+Final Test Score: 20.741, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.1
+pca_components: 100
+Final Test Score: 21.374, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.01
+pca_components: 5
+Final Test Score: 21.924, iteration: 29
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 16.199, iteration: 29
+==============================
+
+
+
+new :
+
+
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 16.094, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 16.188, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 16.774, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 16.09, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 16.079, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 16.332, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 16.152, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 16.016, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (500, 500)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 16.146, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 16.421, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 16.354, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 16.449, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 15.922, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 15.799, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (600, 600)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 15.972, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 16.121, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 16.447, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 16.552, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (700, 700)
+alpha: 0.1
+pca_components: 20
+Final Test Score: 15.563, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (700, 700)
+alpha: 0.01
+pca_components: 20
+Final Test Score: 15.662, iteration: 80
+==============================
+scaler: StandardScaler
+downsample_factor: 30
+hidden_layer_sizes: (700, 700)
+alpha: 0.001
+pca_components: 20
+Final Test Score: 15.751, iteration: 80
+==============================
+
+
+DOWNSAMPLE FACTOR:
+
+
+scaler: StandardScaler
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 17.761, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 17.474, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 17.446, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 16.63, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 16.568, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 16.585, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 18.467, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 18.114, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 18.092, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: 700
+alpha: 0.1
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 25.179, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: 700
+alpha: 0.01
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 25.179, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: 700
+alpha: 0.001
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 25.179, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 16.004, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 15.854, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 15.944, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 16.143, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 16.319, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 50
+Final Test Score: 16.342, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 17.651, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 17.47, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 17.478, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 16.349, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 16.323, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 16.399, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 18.037, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 17.636, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 17.607, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: 700
+alpha: 0.1
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 24.882, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: 700
+alpha: 0.01
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 24.87, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: 700
+alpha: 0.001
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 24.868, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 16.314, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 16.463, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 16.57, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 15.884, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 16.191, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 10
+Final Test Score: 16.297, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 17.858, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 17.766, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (300, 300, 300)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 17.795, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 16.284, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 16.239, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500, 500)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 16.171, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 18.34, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 18.048, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (500, 500)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 18.043, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: 700
+alpha: 0.1
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 24.837, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: 700
+alpha: 0.01
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 24.832, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: 700
+alpha: 0.001
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 24.844, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 15.955, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 16.016, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (600, 600, 600)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 16.054, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.1
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 15.669, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.01
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 16.022, iteration: 19
+==============================
+scaler: StandardScaler
+hidden_layer_sizes: (700, 700, 700)
+alpha: 0.001
+pca_components: 20
+downsample_factor: 3
+Final Test Score: 16.118, iteration: 19
+==============================

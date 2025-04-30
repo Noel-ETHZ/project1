@@ -24,13 +24,13 @@ def load_config():
     return config
 
 
-def load_dataset(config, split="train"):
+def load_dataset(config, split="train", downsample_factor=1):
     labels = pd.read_csv(
         config["data_dir"] / f"{split}_labels.csv", dtype={"ID": str}
     )
 
-    feature_dim = (IMAGE_SIZE[0] // config["downsample_factor"]) * (
-        IMAGE_SIZE[1] // config["downsample_factor"]
+    feature_dim = (IMAGE_SIZE[0] // downsample_factor) * (
+        IMAGE_SIZE[1] // downsample_factor
     )
     feature_dim = feature_dim * 3 if config["load_rgb"] else feature_dim
 
@@ -45,8 +45,8 @@ def load_dataset(config, split="train"):
             image = image.convert("L")
         image = image.resize(
             (
-                IMAGE_SIZE[0] // config["downsample_factor"],
-                IMAGE_SIZE[1] // config["downsample_factor"],
+                IMAGE_SIZE[0] // downsample_factor,
+                IMAGE_SIZE[1] // downsample_factor,
             ),
             resample=Image.BILINEAR,
         )
@@ -58,9 +58,9 @@ def load_dataset(config, split="train"):
     return images, distances
 
 
-def load_test_dataset(config):
-    feature_dim = (IMAGE_SIZE[0] // config["downsample_factor"]) * (
-        IMAGE_SIZE[1] // config["downsample_factor"]
+def load_test_dataset(config, downsample_factor=1):
+    feature_dim = (IMAGE_SIZE[0] // downsample_factor) * (
+        IMAGE_SIZE[1] // downsample_factor
     )
     feature_dim = feature_dim * 3 if config["load_rgb"] else feature_dim
 
@@ -74,8 +74,8 @@ def load_test_dataset(config):
                 image = image.convert("L")
             image = image.resize(
                 (
-                    IMAGE_SIZE[0] // config["downsample_factor"],
-                    IMAGE_SIZE[1] // config["downsample_factor"],
+                    IMAGE_SIZE[0] // downsample_factor,
+                    IMAGE_SIZE[1] // downsample_factor,
                 ),
                 resample=Image.BILINEAR,
             )

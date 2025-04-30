@@ -1,7 +1,6 @@
 from utils import load_config, load_dataset, load_test_dataset, print_results, save_results
 from sklearn.model_selection import train_test_split
 import numpy as np
-
 from sklearn.decomposition import KernelPCA, PCA
 from sklearn import linear_model
 from sklearn.neighbors import KNeighborsRegressor
@@ -18,28 +17,30 @@ if __name__ == "__main__":
     # Load configs from "config.yaml"
     config = load_config()
 
+    params = {
+        "model" : "KNN",
+        "scaler": "StandardScaler",
+        "pca" : "KernelPCA",
+        "n_neighbors" : 2,
+        "pca_components" : 50,
+        "downsample_factor" : 20,
+        "test_size" : 0.15
+    }  
+
+# {'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 20, 'test_size': 0.15}
+# MAE: 12.454
+
+
     # Load dataset: images (X) and corresponding minimum distance values (y)
     #X = np.load("/Users/noel/Documents/SML Project/project1/images_train.npy")
     #y = np.load("/Users/noel/Documents/SML Project/project1/labels_train.npy")
-    X, y = load_dataset(config)
+    X, y = load_dataset(config, downsample_factor=params["downsample_factor"])
     print(f"[INFO]: Dataset loaded with {len(X)} samples.")
 
-    images_test = load_test_dataset(config)
+    images_test = load_test_dataset(config, downsample_factor=params["downsample_factor"])
 
     # TODO: Your implementation starts here
     # possible preprocessing steps ... training the model
-
-
-    params = {
-            "model" : "KNN",
-            "scaler": "StandardScaler",
-            "pca" : "KernelPCA",
-            "n_neighbors" : 2,
-            "pca_components" : 50,
-            "downsample_factor" : config["downsample_factor"],
-            "test_size" : 0.15
-        }  
-
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=params["test_size"], random_state=42)
     # 1. Normalization

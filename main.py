@@ -39,6 +39,7 @@ if __name__ == "__main__":
             "downsample_factor" : config["downsample_factor"],
             "test_size" : 0.15
         }
+    pca_components = [5, 10, 20, 50, 100, 200]
     
 
 
@@ -50,65 +51,70 @@ if __name__ == "__main__":
     X_train_s = scaler.transform(X_train)
     X_test_s = scaler.transform(X_test)
 
-    
-    with open("test_cases.txt", "a") as f:
-        for key, value in params.items():
-            f.write(f"{key}: {value}\n")
-
-    
-    if params["pca"] == "KernelPCA":
-        pca = KernelPCA(n_components=params["pca_components"], kernel="rbf")
-    else:
-        pca = PCA(n_components=params["pca_components"], whiten=True)
-    pca.fit(X_train_s)
-
-    X_train_pp = pca.transform(X_train_s)
-    X_test_pp = pca.transform(X_test_s)
-
-    #X_train_pp = X_train_s
-    #X_test_pp = X_test_s
-
-    # regression
-
-    # define model
-    #model = linear_model.Ridge(alpha=.5)
-    model = KNeighborsRegressor(n_neighbors=params["n_neighbors"], weights="distance", metric="manhattan")  
-    #model = DecisionTreeRegressor()
-    # model = MLPRegressor(
-    #     hidden_layer_sizes=params["hidden_layer_sizes"],
-    #     alpha=params["alpha"],
-    #     activation="relu",
-    #     solver="adam",
-    #     max_iter=500,
-    #     random_state=42,
-    #     tol=1e-10,
-    #     verbose=False,
-    #     learning_rate="adaptive",
-    #     learning_rate_init=0.000005,
-    # )
 
 
-    # fine tuning loop
+    for pca_component in pca_components:
 
-    
-    model.fit(X_train_pp, y_train)
+        params["pca_components"] = pca_component
         
-    # predict
-    X_pred = model.predict(X_test_pp)
-    
-    #plt.plot(train_pred, label="train_pred")
-    #plt.plot(distances_train, label="distances_train")
-    #plt.legend()
-    #plt.show()
+        with open("test_cases.txt", "a") as f:
+            for key, value in params.items():
+                f.write(f"{key}: {value}\n")
 
-    # evaluate
-    MAE_test = print_results(y_test, X_pred)
-    with open("test_cases.txt", "a") as f:
-        f.write("test result:\n")
-        f.write("MAE: " + str(MAE_test) + "\n")
-        f.write("======================\n")
+        
+        if params["pca"] == "KernelPCA":
+            pca = KernelPCA(n_components=params["pca_components"], kernel="rbf")
+        else:
+            pca = PCA(n_components=params["pca_components"], whiten=True)
+        pca.fit(X_train_s)
+
+        X_train_pp = pca.transform(X_train_s)
+        X_test_pp = pca.transform(X_test_s)
+
+        #X_train_pp = X_train_s
+        #X_test_pp = X_test_s
+
+        # regression
+
+        # define model
+        #model = linear_model.Ridge(alpha=.5)
+        model = KNeighborsRegressor(n_neighbors=params["n_neighbors"], weights="distance", metric="manhattan")  
+        #model = DecisionTreeRegressor()
+        # model = MLPRegressor(
+        #     hidden_layer_sizes=params["hidden_layer_sizes"],
+        #     alpha=params["alpha"],
+        #     activation="relu",
+        #     solver="adam",
+        #     max_iter=500,
+        #     random_state=42,
+        #     tol=1e-10,
+        #     verbose=False,
+        #     learning_rate="adaptive",
+        #     learning_rate_init=0.000005,
+        # )
+
+
+        # fine tuning loop
+
+        
+        model.fit(X_train_pp, y_train)
+            
+        # predict
+        X_pred = model.predict(X_test_pp)
+        
+        #plt.plot(train_pred, label="train_pred")
+        #plt.plot(distances_train, label="distances_train")
+        #plt.legend()
+        #plt.show()
+
+        # evaluate
+        MAE_test = print_results(y_test, X_pred)
+        with open("test_cases.txt", "a") as f:
+            f.write("test result:\n")
+            f.write("MAE: " + str(MAE_test) + "\n")
+            f.write("======================\n")
 
 
     # Save the results DONT FORGET THE PREPROCESSING STEPS
-    images_pred = model.predict(pca.transform(images_test))
+    images_pred = model.predict(pca.transform(scaler.transform(images_test)))
     #save_results(images_pred)

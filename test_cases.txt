@@ -1,1 +1,60 @@
-PCA components: -----------------------
+model: KNN
+scaler: StandardScaler
+pca: KernelPCA
+n_neighbors: 2
+pca_components: 5
+downsample_factor: 1
+test_size: 0.15
+test result:
+MAE: 21.539
+======================
+model: KNN
+scaler: StandardScaler
+pca: KernelPCA
+n_neighbors: 2
+pca_components: 10
+downsample_factor: 1
+test_size: 0.15
+test result:
+MAE: 17.022
+======================
+model: KNN
+scaler: StandardScaler
+pca: KernelPCA
+n_neighbors: 2
+pca_components: 20
+downsample_factor: 1
+test_size: 0.15
+test result:
+MAE: 14.323
+======================
+model: KNN
+scaler: StandardScaler
+pca: KernelPCA
+n_neighbors: 2
+pca_components: 50
+downsample_factor: 1
+test_size: 0.15
+test result:
+MAE: 12.845
+======================
+model: KNN
+scaler: StandardScaler
+pca: KernelPCA
+n_neighbors: 2
+pca_components: 100
+downsample_factor: 1
+test_size: 0.15
+test result:
+MAE: 12.741
+======================
+model: KNN
+scaler: StandardScaler
+pca: KernelPCA
+n_neighbors: 2
+pca_components: 200
+downsample_factor: 1
+test_size: 0.15
+test result:
+MAE: 12.479
+======================

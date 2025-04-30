@@ -1,60 +1,416 @@
-model: KNN
-scaler: StandardScaler
-pca: KernelPCA
-n_neighbors: 2
-pca_components: 5
-downsample_factor: 1
-test_size: 0.15
-test result:
-MAE: 21.539
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 30.63
 ======================
-model: KNN
-scaler: StandardScaler
-pca: KernelPCA
-n_neighbors: 2
-pca_components: 10
-downsample_factor: 1
-test_size: 0.15
-test result:
-MAE: 17.022
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 29.407
 ======================
-model: KNN
-scaler: StandardScaler
-pca: KernelPCA
-n_neighbors: 2
-pca_components: 20
-downsample_factor: 1
-test_size: 0.15
-test result:
-MAE: 14.323
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 28.263
 ======================
-model: KNN
-scaler: StandardScaler
-pca: KernelPCA
-n_neighbors: 2
-pca_components: 50
-downsample_factor: 1
-test_size: 0.15
-test result:
-MAE: 12.845
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 26.321
 ======================
-model: KNN
-scaler: StandardScaler
-pca: KernelPCA
-n_neighbors: 2
-pca_components: 100
-downsample_factor: 1
-test_size: 0.15
-test result:
-MAE: 12.741
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.067
 ======================
-model: KNN
-scaler: StandardScaler
-pca: KernelPCA
-n_neighbors: 2
-pca_components: 200
-downsample_factor: 1
-test_size: 0.15
-test result:
-MAE: 12.479
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.007
 ======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 24.899
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.805
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.489
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 28.897
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 26.882
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 25.027
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 25.119
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.591
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.757
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.945
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 20.382
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 18.832
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 26.862
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.888
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.651
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 24.185
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 20.655
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 18.802
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 22.914
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.102
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 17.921
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 30.808
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 29.56
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 28.43
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 27.254
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.946
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.409
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 25.504
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.668
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.226
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 29.449
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 27.556
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 25.513
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 25.533
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.742
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.32
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.56
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 20.304
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 18.216
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 27.856
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 24.802
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 22.484
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.792
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 20.481
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 18.386
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.878
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.062
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 17.642
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 30.688
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 29.007
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 27.92
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 25.656
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 22.077
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.847
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.363
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 20.136
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 18.126
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 28.805
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 26.296
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 24.649
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.204
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 20.203
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 18.211
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.78
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 18.832
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 17.528
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 26.533
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 22.954
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.01
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.591
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.223
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 17.482
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 20.521
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 18.17
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 17.125
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 30.819
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 29.6
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 28.327
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 26.716
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.743
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.197
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 24.972
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.526
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.11
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 29.449
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 27.75
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 25.707
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 25.009
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 21.802
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.172
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.364
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 19.857
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 18.096
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 27.439
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 24.992
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.01, 'max_depth': 7, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 22.392
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 23.415
+======================
+
+{'model': 'GradientBoosting', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_estimators': 200, 'learning_rate': 0.05, 'max_depth': 5, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 20.19
+======================
+

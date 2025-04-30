@@ -1,120 +1,83 @@
-from utils import load_config, load_dataset, load_test_dataset, print_results, save_results
+from utils import load_config, load_dataset, load_test_dataset, print_results
 from sklearn.model_selection import train_test_split
+from sklearn.decomposition import KernelPCA
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn import preprocessing
 import numpy as np
 
-from sklearn.decomposition import KernelPCA, PCA
-from sklearn import linear_model
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.neural_network import MLPRegressor
-from sklearn.tree import DecisionTreeRegressor
-from sklearn import preprocessing
-from matplotlib import pyplot as plt
-from tqdm import tqdm
-
-# sklearn imports...
-# SVRs are not allowed in this project.
-
 if __name__ == "__main__":
-    # Load configs from "config.yaml"
     config = load_config()
-
-    # Load dataset: images (X) and corresponding minimum distance values (y)
-    #X = np.load("/Users/noel/Documents/SML Project/project1/images_train.npy")
-    #y = np.load("/Users/noel/Documents/SML Project/project1/labels_train.npy")
-    X, y = load_dataset(config)
-    print(f"[INFO]: Dataset loaded with {len(X)} samples.")
-
     images_test = load_test_dataset(config)
 
-    # TODO: Your implementation starts here
-    # possible preprocessing steps ... training the model
-
-
     params = {
-            "model" : "KNN",
-            "scaler": "StandardScaler",
-            "pca" : "KernelPCA",
-            "n_neighbors" : 2,
-            "pca_components" : 20,
-            "downsample_factor" : config["downsample_factor"],
-            "test_size" : 0.15
-        }
-    pca_components = [5, 10, 20, 50, 100, 200]
-    
+        "model": "GradientBoosting",
+        "scaler": "StandardScaler",
+        "pca": "KernelPCA",
+        "n_estimators": 100,
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "pca_components": 20,
+        "downsample_factor": config["downsample_factor"],
+        "test_size": 0.15
+    }
 
+    downsample_factors = [1, 3, 10, 20, 30]
+    pca_components = [20, 50, 100, 200]
+    test_size = params["test_size"]
+    scalers = ["StandardScaler", "MinMaxScaler"]
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=params["test_size"], random_state=42)
-    # 1. Normalization
-    scaler = preprocessing.StandardScaler().fit(X_train)
-    #scaler = preprocessing.MinMaxScaler().fit(X_train)
+    n_estimators_list = [50, 100, 200]
+    learning_rates = [0.01, 0.05, 0.1]
+    max_depths = [3, 5, 7]
 
-    X_train_s = scaler.transform(X_train)
-    X_test_s = scaler.transform(X_test)
+    for ds_factor in reversed(downsample_factors):
+        X, y = load_dataset(config, downsample_factor=ds_factor)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42)
 
+        for pca_c in pca_components:
+            if pca_c > X.shape[1]:
+                break
 
+            for sc in scalers:
+                if sc == "MinMaxScaler":
+                    scaler = preprocessing.MinMaxScaler().fit(X_train)
+                else:
+                    scaler = preprocessing.StandardScaler().fit(X_train)
 
-    for pca_component in pca_components:
+                X_train_s = scaler.transform(X_train)
+                X_test_s = scaler.transform(X_test)
 
-        params["pca_components"] = pca_component
-        
-        with open("test_cases.txt", "a") as f:
-            for key, value in params.items():
-                f.write(f"{key}: {value}\n")
+                pca = KernelPCA(n_components=pca_c, kernel="rbf")
+                pca.fit(X_train_s)
 
-        
-        if params["pca"] == "KernelPCA":
-            pca = KernelPCA(n_components=params["pca_components"], kernel="rbf")
-        else:
-            pca = PCA(n_components=params["pca_components"], whiten=True)
-        pca.fit(X_train_s)
+                X_train_pp = pca.transform(X_train_s)
+                X_test_pp = pca.transform(X_test_s)
 
-        X_train_pp = pca.transform(X_train_s)
-        X_test_pp = pca.transform(X_test_s)
+                for n_est in n_estimators_list:
+                    for lr in learning_rates:
+                        for md in max_depths:
+                            model = GradientBoostingRegressor(
+                                n_estimators=n_est,
+                                learning_rate=lr,
+                                max_depth=md,
+                                random_state=42
+                            )
 
-        #X_train_pp = X_train_s
-        #X_test_pp = X_test_s
+                            model.fit(X_train_pp, y_train)
+                            y_pred = model.predict(X_test_pp)
 
-        # regression
+                            mae = print_results(y_test, y_pred)
 
-        # define model
-        #model = linear_model.Ridge(alpha=.5)
-        model = KNeighborsRegressor(n_neighbors=params["n_neighbors"], weights="distance", metric="manhattan")  
-        #model = DecisionTreeRegressor()
-        # model = MLPRegressor(
-        #     hidden_layer_sizes=params["hidden_layer_sizes"],
-        #     alpha=params["alpha"],
-        #     activation="relu",
-        #     solver="adam",
-        #     max_iter=500,
-        #     random_state=42,
-        #     tol=1e-10,
-        #     verbose=False,
-        #     learning_rate="adaptive",
-        #     learning_rate_init=0.000005,
-        # )
+                            params.update({
+                                "downsample_factor": ds_factor,
+                                "pca_components": pca_c,
+                                "scaler": sc,
+                                "n_estimators": n_est,
+                                "learning_rate": lr,
+                                "max_depth": md
+                            })
 
-
-        # fine tuning loop
-
-        
-        model.fit(X_train_pp, y_train)
-            
-        # predict
-        X_pred = model.predict(X_test_pp)
-        
-        #plt.plot(train_pred, label="train_pred")
-        #plt.plot(distances_train, label="distances_train")
-        #plt.legend()
-        #plt.show()
-
-        # evaluate
-        MAE_test = print_results(y_test, X_pred)
-        with open("test_cases.txt", "a") as f:
-            f.write("test result:\n")
-            f.write("MAE: " + str(MAE_test) + "\n")
-            f.write("======================\n")
-
-
-    # Save the results DONT FORGET THE PREPROCESSING STEPS
-    images_pred = model.predict(pca.transform(scaler.transform(images_test)))
-    #save_results(images_pred)
+                            with open("test_cases.txt", "a") as f:
+                                f.write(str(params) + "\n")
+                                f.write("MAE: " + str(mae) + "\n")
+                                f.write("======================\n\n")

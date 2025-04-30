@@ -31,7 +31,7 @@ if __name__ == "__main__":
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     # 1. Normalization
     scaler = preprocessing.StandardScaler().fit(X_train)
-    scaler = preprocessing.MinMaxScaler().fit(X_train)
+    #scaler = preprocessing.MinMaxScaler().fit(X_train)
 
     X_train_s = scaler.transform(X_train)
     X_test_s = scaler.transform(X_test)

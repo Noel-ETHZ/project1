@@ -28,7 +28,21 @@ if __name__ == "__main__":
 
     # TODO: Your implementation starts here
     # possible preprocessing steps ... training the model
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+
+    params = {
+            "model" : "KNN",
+            "scaler": "StandardScaler",
+            "pca" : "KernelPCA",
+            "n_neighbors" : 2,
+            "pca_components" : 20,
+            "downsample_factor" : config["downsample_factor"],
+            "test_size" : 0.15
+        }
+    
+
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=params["test_size"], random_state=42)
     # 1. Normalization
     scaler = preprocessing.StandardScaler().fit(X_train)
     #scaler = preprocessing.MinMaxScaler().fit(X_train)
@@ -36,8 +50,16 @@ if __name__ == "__main__":
     X_train_s = scaler.transform(X_train)
     X_test_s = scaler.transform(X_test)
 
-    #pca = KernelPCA(n_components=300, kernel="rbf")
-    pca = PCA(n_components=100, whiten=True)
+    
+    with open("test_cases.txt", "a") as f:
+        for key, value in params.items():
+            f.write(f"{key}: {value}\n")
+
+    
+    if params["pca"] == "KernelPCA":
+        pca = KernelPCA(n_components=params["pca_components"], kernel="rbf")
+    else:
+        pca = PCA(n_components=params["pca_components"], whiten=True)
     pca.fit(X_train_s)
 
     X_train_pp = pca.transform(X_train_s)
@@ -50,37 +72,26 @@ if __name__ == "__main__":
 
     # define model
     #model = linear_model.Ridge(alpha=.5)
-    #model = KNeighborsRegressor(n_neighbors=2, weights="distance", metric="manhattan")  
+    model = KNeighborsRegressor(n_neighbors=params["n_neighbors"], weights="distance", metric="manhattan")  
     #model = DecisionTreeRegressor()
-    model = MLPRegressor(
-        hidden_layer_sizes=(300, 300, 300),
-        alpha=0.1,
-        activation="relu",
-        solver="adam",
-        max_iter=500,
-        random_state=42,
-        tol=1e-10,
-        verbose=False,
-        learning_rate="adaptive",
-        learning_rate_init=0.000005,
-    )
+    # model = MLPRegressor(
+    #     hidden_layer_sizes=params["hidden_layer_sizes"],
+    #     alpha=params["alpha"],
+    #     activation="relu",
+    #     solver="adam",
+    #     max_iter=500,
+    #     random_state=42,
+    #     tol=1e-10,
+    #     verbose=False,
+    #     learning_rate="adaptive",
+    #     learning_rate_init=0.000005,
+    # )
 
 
     # fine tuning loop
-    for i in range(300):
-        for t in tqdm(range(50), desc="Training iterations"):
-            model.partial_fit(X_train_pp, y_train)
 
-        y_train_pred = model.predict(X_train_pp)
-        y_test_pred = model.predict(X_test_pp)
-
-        print(f"========= Iteration {i} =========")
-        print("Train Score:")
-        print_results(y_train, y_train_pred)
-        print("Test Score:")
-        print_results(y_test, y_test_pred)
     
-    #model.fit(X_train_pp, y_train)
+    model.fit(X_train_pp, y_train)
         
     # predict
     X_pred = model.predict(X_test_pp)
@@ -91,7 +102,12 @@ if __name__ == "__main__":
     #plt.show()
 
     # evaluate
-    print_results(y_test, X_pred)
+    MAE_test = print_results(y_test, X_pred)
+    with open("test_cases.txt", "a") as f:
+        f.write("test result:\n")
+        f.write("MAE: " + str(MAE_test) + "\n")
+        f.write("======================\n")
+
 
     # Save the results DONT FORGET THE PREPROCESSING STEPS
     images_pred = model.predict(pca.transform(images_test))

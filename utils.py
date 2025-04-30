@@ -88,6 +88,7 @@ def load_test_dataset(config):
 def print_results(gt, pred):
     print(f"MAE: {round(mean_absolute_error(gt, pred)*100, 3)}")
     print(f"R2: {round(r2_score(gt, pred)*100, 3)}")
+    return round(mean_absolute_error(gt, pred)*100, 3)
 
 
 def save_results(pred):

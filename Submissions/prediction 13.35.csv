@@ -621,3 +621,5 @@ ID,Distance
 619,1.5240542371486248
 620,1.8408950235182255
 621,1.26196391162475
+
+#     {'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}

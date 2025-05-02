@@ -35,11 +35,12 @@ if __name__ == "__main__":
             "scaler": "StandardScaler",
             "pca" : "KernelPCA",
             "n_neighbors" : 2,
-            "pca_components" : 50,
+            "pca_components" : 200,
             "downsample_factor" : config["downsample_factor"],
             "test_size" : 0.15
-        }  
-
+        }
+#     {'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}
+# MAE: 12.526
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=params["test_size"], random_state=42)
     # 1. Normalization

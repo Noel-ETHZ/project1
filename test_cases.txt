@@ -58,3 +58,947 @@ test_size: 0.15
 test result:
 MAE: 12.479
 ======================
+
+
+
+
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 50, 'test_size': 0.15}
+MAE: 15.273
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 50, 'test_size': 0.15}
+MAE: 13.093
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 50, 'test_size': 0.15}
+MAE: 15.689
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 50, 'test_size': 0.15}
+MAE: 13.782
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 14.53
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.906
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 14.904
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 14.357
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.093
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.404
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.264
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.941
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 12.838
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.674
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.149
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.747
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.815
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.564
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 15.075
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.651
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 12.738
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 13.37
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 13.685
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.056
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 12.885
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 13.959
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 13.111
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.483
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 12.731
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.36
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 12.745
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.604
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.861
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.933
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 15.554
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 15.147
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.437
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.518
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.83
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.17
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.084
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.793
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.291
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.656
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 12.53
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 15.87
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.035
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 16.686
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.67
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 16.925
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 15.572
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 18.284
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 15.104
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 14.633
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 15.66
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 15.174
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.079
+======================
+
+
+
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 50, 'test_size': 0.15}
+MAE: 15.273
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 50, 'test_size': 0.15}
+MAE: 13.093
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 50, 'test_size': 0.15}
+MAE: 15.689
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 50, 'test_size': 0.15}
+MAE: 13.782
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 14.53
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.906
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 14.904
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 14.357
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.093
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.404
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.264
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.941
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 12.838
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.674
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.149
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 30, 'test_size': 0.15}
+MAE: 13.747
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.815
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.564
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 15.075
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.651
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 12.738
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 13.37
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 13.685
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.056
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 12.885
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 13.959
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 13.111
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.483
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 12.731
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.36
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 12.745
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 20, 'test_size': 0.15}
+MAE: 14.604
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.861
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.933
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 15.554
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 15.147
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.437
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.518
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.83
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.17
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.084
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.793
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.291
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.656
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 12.53
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 15.87
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 13.035
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 16.686
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 14.67
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 16.925
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 15.572
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 10, 'test_size': 0.15}
+MAE: 18.284
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 15.104
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 14.633
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 15.66
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 15.174
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.079
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 12.597
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.987
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 14.009
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.506
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.723
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.737
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 14.867
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 12.526
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 16.344
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.171
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 17.406
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 17.642
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 19.545
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 19.579
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 21.607
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 14.959
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 14.767
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 15.701
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 14.842
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 13.226
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 12.61
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 13.939
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 14.093
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 13.179
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 13.877
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 14.091
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 14.985
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 12.787
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 16.093
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 13.077
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 18.01
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 18.273
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 21.888
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 20.1
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 22.946
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 14.909
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 14.789
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 15.641
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 15.353
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 13.277
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 13.319
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 14.081
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 13.986
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 13.303
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 13.889
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 13.654
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 14.71
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 12.558
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 15.894
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 13.049
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 16.935
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 16.179
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 18.918
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 17.874
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 5, 'test_size': 0.15}
+MAE: 21.19
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 15.032
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 14.758
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 15.594
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 15.236
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 13.289
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 12.88
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 13.967
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 14.024
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 13.513
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 13.783
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 13.57
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 14.627
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 12.517
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 16.14
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 13.105
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 17.152
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 16.714
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 19.207
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 18.639
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 4, 'test_size': 0.15}
+MAE: 21.264
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 15.104
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 14.633
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 15.66
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 15.174
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.079
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 12.597
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.987
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 14.009
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.506
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.723
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.737
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 14.867
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 12.526
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 16.344
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 13.171
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 17.406
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 17.642
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 19.545
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 19.579
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 3, 'test_size': 0.15}
+MAE: 21.607
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 14.892
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 14.519
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 15.551
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 15.036
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 13.163
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 12.702
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 14.022
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 50, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 14.157
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 13.341
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 100, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 13.983
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 13.786
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 100, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 14.94
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 12.677
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 200, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 15.995
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 12.977
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 200, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 17.646
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 17.676
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 400, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 20.963
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 19.511
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 400, 'downsample_factor': 2, 'test_size': 0.15}
+MAE: 22.436
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 14.959
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 20, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 14.767
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 15.701
+======================
+
+{'model': 'KNN', 'scaler': 'MinMaxScaler', 'pca': 'KernelPCA', 'n_neighbors': 3, 'pca_components': 20, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 14.842
+======================
+
+{'model': 'KNN', 'scaler': 'StandardScaler', 'pca': 'KernelPCA', 'n_neighbors': 2, 'pca_components': 50, 'downsample_factor': 1, 'test_size': 0.15}
+MAE: 13.226
+======================
+

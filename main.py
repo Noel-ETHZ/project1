@@ -1,99 +1,52 @@
 from utils import load_config, load_dataset, load_test_dataset, print_results, save_results
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.model_selection import GridSearchCV
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import RobustScaler
+from sklearn.decomposition import PCA
 from sklearn.model_selection import train_test_split
 import numpy as np
-import math
-
-from sklearn.decomposition import KernelPCA, PCA
-from sklearn import linear_model
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.neural_network import MLPRegressor
-from sklearn.tree import DecisionTreeRegressor
-from sklearn import preprocessing
-from matplotlib import pyplot as plt
-from tqdm import tqdm
-
-
-# sklearn imports...
-# SVRs are not allowed in this project.
 
 if __name__ == "__main__":
     # Load configs from "config.yaml"
     config = load_config()
 
-    # Load dataset: images (X) and corresponding minimum distance values (y)
-    #X = np.load("/Users/noel/Documents/SML Project/project1/images_train.npy")
-    #y = np.load("/Users/noel/Documents/SML Project/project1/labels_train.npy")
-    X, y = load_dataset(config)
-    print(f"[INFO]: Dataset loaded with {len(X)} samples.")
+    # Load training dataset: images and corresponding minimum distance values
+    train_images, train_distances = load_dataset(config)
+    print(f"[INFO]: Dataset loaded with {len(train_images)} samples.")
+    num_samples, num_features = train_images.shape
 
-    images_test = load_test_dataset(config)
+    # Load public dataset for testing
+    X,y = load_dataset(config)
 
-    # TODO: Your implementation starts here
-    # possible preprocessing steps ... training the model
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=42)
 
+    # Load private dataset
+    test_images = load_test_dataset(config)
 
-    params = {
-            "model" : "KNN",
-            "scaler": "StandardScaler",
-            "pca" : "KernelPCA",
-            "n_neighbors" : 2,
-            "pca_components" : 20,
-            "downsample_factor" : config["downsample_factor"],
-            "test_size" : 0.15
-        }
-    
-    downsample_factors = [1, 3, 10, 20, 30, 50]
-    pca_components = [20, 50, 100, 200, 400]
-    #test_sizes = [0.2, 0.15]
-    n_neighborss = [2, 3]
-    scalers = ["StandardScaler", "MinMaxScaler"]
-    
-    for ds_factor in reversed(downsample_factors):
-        X, y = load_dataset(config, downsample_factor=ds_factor)
-        #for ts in test_sizes:
-        ts = params["test_size"]
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=ts, random_state=42) 
-        for pca_c in pca_components:
-            if pca_c > X.shape[1]:
-                break
+    # Determine the appropriate number of components for PCA
+    n = min(num_samples, num_features, 300)  # Ensure n_components is valid
 
-            for n_neighbors in n_neighborss:
-                for sc in scalers:
-                    if sc == "MinMaxScaler":
-                        scaler = preprocessing.MinMaxScaler().fit(X_train)
-                    else:
-                        scaler = preprocessing.StandardScaler().fit(X_train)
-                    X_train_s = scaler.transform(X_train)
-                    X_test_s = scaler.transform(X_test)
+    # KNeighbors with Pipeline including PCA
+    knr_pipe = make_pipeline(RobustScaler(), PCA(n_components=n), KNeighborsRegressor())
 
-                    pca = KernelPCA(n_components=pca_c, kernel="rbf")
-                    pca.fit(X_train_s)
+    # Parameter grid for Grid Search
+    param_grid = {
+        'kneighborsregressor__n_neighbors': [2, 3, 4, 5, 6],
+        'kneighborsregressor__weights': ['uniform', 'distance'],
+        'kneighborsregressor__p': [2]  # p = 1 for Manhattan, p = 2 for Euclidean
+    }
 
-                    params["downsample_factor"] = ds_factor
-                    params["test_size"] = ts
-                    params["n_neighbors"] = n_neighbors
-                    params["scaler"] = sc
-                    params["pca_components"] = pca_c
-                    # Save the parameters to a file
-                    with open("test_cases.txt", "a") as f:
-                        f.write(str(params) + "\n")
-                    
+    # Grid Search
+    grid_search = GridSearchCV(knr_pipe, param_grid, cv=5, n_jobs=-1)  # Adjust n_jobs to a reasonable number
+    grid_search.fit(X_train, y_train)
+    best_estimator = grid_search.best_estimator_
 
-                    X_train_pp = pca.transform(X_train_s)
-                    X_test_pp = pca.transform(X_test_s)
+    # Evaluation
+    pred = best_estimator.predict(X_test)
+    gt = y_test
 
-
-                    model = KNeighborsRegressor(n_neighbors=n_neighbors, weights="distance", metric="manhattan")  
-
-                    
-                    model.fit(X_train_pp, y_train)
-                        
-                    # predict
-                    X_pred = model.predict(X_test_pp)
-
-                    # evaluate
-                    MAE_test = print_results(y_test, X_pred)
-                    with open("test_cases.txt", "a") as f:
-                        f.write("MAE: " + str(MAE_test) + "\n")
-                        f.write("======================\n")
-                        f.write("\n")
+    # print_results(gt, pred)
+    #priv_pred = best_estimator.predict(priv_test_images)
+    # Save the results
+    print_results(gt, pred)
